@@ -14,7 +14,24 @@
 
 */
 
+svg {
+  height: 39px;
+}
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  background-color: white;
 }
+
+
+.floppy {
+  max-width: 39px;
+  height: 39px;
+}
+
+div {
+  display: block;
+  width: 39px;
+}
+
