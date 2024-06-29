@@ -1,0 +1,5 @@
+:root .theme-dark {
+    --header-weight: var(--weight-dark-header);
+    --weight: var(--weight-dark);
+    --color-main-text: #00cc14;
+}

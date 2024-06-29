@@ -1,0 +1,5 @@
+:root.theme-light {
+    --header-weight: var(--weight-light-header);
+    --weight: var(--weight-light);
+    --color-main-text: #000;
+}

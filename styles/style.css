@@ -22,6 +22,9 @@ svg {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   background-color: white;
+  font-family: var(--inter);
+  font-variation-settings: 'wght' var(--weight);
+  color: var(--color-main-text);
 }
 
 

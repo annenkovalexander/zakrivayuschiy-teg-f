@@ -1,1 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --inter: 'Inter, sans-serif, Arial';
+    --press: 'Press Start 2P, sans-serif, Arial';
+    --weight-light-header: 700;
+    --weight-dark-header: 785;
+    --weight-light: 400;
+    --weight-dark: 465;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-weight: var(--weight-dark-header);
+        --weight: var(--weight-dark);
+        --color-main-text: #00cc14;
+    }
+}
+
+@media (prefers-color-scheme: light){
+    :root {
+        --header-weight: var(--weight-light-header);
+        --weight: var(--weight-light);
+        --color-main-text: #000;
+    }
+}
